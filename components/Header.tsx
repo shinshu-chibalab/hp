@@ -35,14 +35,14 @@ export function Header() {
           </li>
 
           <li>
-            <Link href="/publications">
-              研究業績
+            <Link href="/research">
+              研究内容
             </Link>
           </li>
-
+          
           <li>
-            <Link href="/members">
-              メンバー紹介
+            <Link href="/achievements">
+              研究業績
             </Link>
           </li>
 
@@ -55,6 +55,12 @@ export function Header() {
           <li>
             <Link href="/access">
               アクセス＆コンタクト
+            </Link>
+          </li>
+
+          <li>
+            <Link href="/links">
+              各種リンク
             </Link>
           </li>
 

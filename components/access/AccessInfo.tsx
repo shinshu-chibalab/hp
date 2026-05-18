@@ -1,5 +1,7 @@
 type Props = {
 
+  title: string;
+
   postCode: string;
 
   address: string;
@@ -11,6 +13,7 @@ type Props = {
 };
 
 export function AccessInfo({
+  title,
   postCode,
   address,
   building,
@@ -27,7 +30,7 @@ export function AccessInfo({
         mb-6
       ">
 
-        Access
+        {title}
 
       </h2>
 

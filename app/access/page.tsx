@@ -1,11 +1,11 @@
 import { AccessInfo }
-  from "@/components/AccessInfo";
+  from "@/components/access/AccessInfo";
 
 import { ContactInfo }
-  from "@/components/ContactInfo";
+  from "@/components/access/ContactInfo";
 
 import { GoogleMap }
-  from "@/components/GoogleMap";
+  from "@/components/access/GoogleMap";
 
 export default function AccessPage() {
 
@@ -31,6 +31,7 @@ export default function AccessPage() {
       <GoogleMap />
 
       <AccessInfo 
+        title="アクセス"
         postCode="380-8553"
         address="長野県長野市若里 4-17-1"
         building="E3棟 307"
