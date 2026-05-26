@@ -79,6 +79,7 @@ ConferenceItem({
         className="
           text-blue-600
           underline
+          hover:!text-orange-500
         "
       >
 

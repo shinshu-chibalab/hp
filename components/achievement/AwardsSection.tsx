@@ -31,7 +31,7 @@ export function AwardSection({
   return (
 
     <section className="
-      max-w-5xl
+      max-w-7xl
       mx-auto
       px-6
       py-28

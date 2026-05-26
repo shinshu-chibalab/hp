@@ -19,9 +19,9 @@ IntroductionPage() {
       <HeroSection
         title="生体モデリング研究室"
         images={[
-          "/images/hero/hero1.jpg",
-          "/images/hero/hero2.jpg",
-          "/images/hero/hero3.jpg",
+          "/about/sleeping.jpg",
+          "/about/milk.jpg",
+          "/about/sushi.jpg",
         ]}
       />
 

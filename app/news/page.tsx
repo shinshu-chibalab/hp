@@ -6,6 +6,16 @@ export default async function NewsPage() {
 
   const newsList = await getAllNews();
 
+  newsList.sort((a, b) => {
+
+    return (
+      new Date(b.date).getTime() -
+      new Date(a.date).getTime()
+    );
+
+  });
+
+
   return (
     
     <NewsSection

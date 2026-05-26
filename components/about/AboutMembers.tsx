@@ -30,7 +30,6 @@ export function AboutMembers({
     ">
 
       <div className="
-        bg-gray-50
         rounded-3xl
         p-12
         shadow-sm
@@ -71,9 +70,9 @@ export function AboutMembers({
             px-8
             py-4
             rounded-full
-            bg-black
-            text-white
-            hover:bg-gray-800
+            border-2
+            border-orange-400
+            hover:shadow-xl
             transition
           "
         >

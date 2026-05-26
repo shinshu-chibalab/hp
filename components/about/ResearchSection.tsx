@@ -133,12 +133,24 @@ ResearchSection({
               inline-block
               px-8
               py-4
+
               rounded-full
-              bg-black
-              text-white
+
+              border-2
+              border-orange-400
+
+              bg-white/70
+              backdrop-blur-sm
+
+              text-black
               text-lg
-              hover:bg-gray-800
+
+              shadow-md
+
+              hover:shadow-xl
+
               transition
+              duration-300
             "
           >
 

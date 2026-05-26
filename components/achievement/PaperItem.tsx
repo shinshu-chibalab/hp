@@ -34,7 +34,7 @@ export function PaperItem({
 
   return (
 
-    <Link href={`/achievement/${slug}`}>
+    <Link href={`/achievements/${slug}`}>
 
       <div className="
         border-b

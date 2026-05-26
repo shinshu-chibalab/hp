@@ -24,12 +24,16 @@ export function ResearchCard({
     <Link href={`/research/${slug}`}>
 
       <div className="
+        h-full
         rounded-2xl
         overflow-hidden
         shadow-md
         hover:shadow-xl
         transition
         bg-white
+
+        flex
+        flex-col
       ">
 
         <img
@@ -42,12 +46,20 @@ export function ResearchCard({
           "
         />
 
-        <div className="p-6">
+        <div className="
+          p-6
+          flex
+          flex-col
+          flex-1
+        ">
 
           <h3 className="
             text-2xl
             font-bold
             mb-3
+
+            line-clamp-2
+            min-h-[4rem]
           ">
 
             {title}
@@ -56,6 +68,9 @@ export function ResearchCard({
 
           <p className="
             text-gray-600
+            leading-7
+
+            line-clamp-3s
           ">
 
             {summary}

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 type Props = {
 
   date: string;
@@ -80,6 +82,7 @@ export function AwardItem({
         className="
           text-blue-600
           underline
+          hover:!text-orange-500
         "
       >
 

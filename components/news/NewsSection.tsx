@@ -115,21 +115,34 @@ export function NewsSection({
         ">
 
           <Link
-            href="/news"
+            href="/research"
             className="
               inline-block
               px-8
               py-4
+
               rounded-full
-              bg-black
-              text-white
+
+              border-2
+              border-orange-400
+
+              bg-white/70
+              backdrop-blur-sm
+
+              text-black
               text-lg
-              hover:bg-gray-800
+              font-semibold
+
+              shadow-md
+
+              hover:shadow-xl
+
               transition
+              duration-300
             "
           >
 
-            すべてのニュースを見る
+            すべての研究を見る
 
           </Link>
 

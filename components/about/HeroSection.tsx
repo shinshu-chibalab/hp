@@ -106,8 +106,9 @@ export function HeroSection({
         justify-center
       ">
 
+ 
         <h1 className="
-          text-white
+          text-orange-400
           text-5xl
           md:text-7xl
           font-bold
@@ -115,9 +116,7 @@ export function HeroSection({
           drop-shadow-lg
           text-center
         ">
-
           {title}
-
         </h1>
 
       </div>

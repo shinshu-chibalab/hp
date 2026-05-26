@@ -4,7 +4,6 @@ import { ResearchSection } from "@/components/about/ResearchSection";
 import { AccessInfo } from "@/components/access/AccessInfo";
 import { ContactInfo } from "@/components/access/ContactInfo";
 import { NewsSection } from "@/components/news/NewsSection";
-import { MembersCountSection } from "@/components/member/MembersCountSection";
 import { getAllResearch } from "@/lib/research";
 import { getAllNews } from "@/lib/news";
 
@@ -40,11 +39,11 @@ HomePage() {
       ====================== */}
 
       <HeroSection
-        title="生体モデリング研究室"
+        title=""
         images={[
-          "/images/hero/hero1.jpg",
-          "/images/hero/hero2.jpg",
-          "/images/hero/hero3.jpg",
+          "/msm.png",
+          "/scone_msm.png",
+          "/VR_exp.JPG"
         ]}
       />
 
